@@ -1,0 +1,1 @@
+{"msg_type":"text","content":{"text":"{{Input1.inputText}}"}}

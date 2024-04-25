@@ -1,0 +1,1 @@
+{"msg_type":"text","content":{"text":"{{text_massage.text}}"}}

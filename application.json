@@ -1,0 +1,84 @@
+{
+  "pages": [
+    {
+      "id": "Order Tracking",
+      "isDefault": false
+    },
+    {
+      "id": "Stage 1",
+      "isDefault": false
+    },
+    {
+      "id": "Upload PL image",
+      "isDefault": false
+    },
+    {
+      "id": "生产下单",
+      "isDefault": true
+    },
+    {
+      "id": "面料齐备确认",
+      "isDefault": false
+    },
+    {
+      "id": "裁剪排料完成",
+      "isDefault": false
+    },
+    {
+      "id": "裁剪完成",
+      "isDefault": false
+    },
+    {
+      "id": "绣花完成",
+      "isDefault": false
+    },
+    {
+      "id": "印花设计完成",
+      "isDefault": false
+    },
+    {
+      "id": "印花排料打印完成",
+      "isDefault": false
+    },
+    {
+      "id": "印花压烫切割完成",
+      "isDefault": false
+    },
+    {
+      "id": "针织组缝纫",
+      "isDefault": false
+    },
+    {
+      "id": "梭织组缝纫",
+      "isDefault": false
+    },
+    {
+      "id": "个性组缝纫",
+      "isDefault": false
+    },
+    {
+      "id": "后道质检完成",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#FFEBFB",
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "publishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

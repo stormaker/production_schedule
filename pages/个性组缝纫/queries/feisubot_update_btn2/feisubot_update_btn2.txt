@@ -1,0 +1,1 @@
+{"msg_type":"text","content":{"text":"{{bot_text_btn2.text}}"}}

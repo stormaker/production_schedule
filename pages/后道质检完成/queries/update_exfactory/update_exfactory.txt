@@ -1,0 +1,1 @@
+update ordinfo set ExFactory="{{form_order_detail.formData.ExFactory}}" where bh ={{form_order_detail.formData.bh}};

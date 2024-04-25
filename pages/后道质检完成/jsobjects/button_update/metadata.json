@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "button_update",
+    "pageId": "后道质检完成",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "后道质检完成_button_update",
+  "deleted": false,
+  "gitSyncId": "63777467ec6e4446d44765a7_63806cfceacf67582d3021e5"
+}

@@ -1,0 +1,1 @@
+SELECT bh,imno,style,yqbz,fabric,colorway,qty,zt,ztmc,Est_Exfactory,ExFactory，datediff( ExFACTORY,CURDATE()) AS days_remain FROM ordinfo WHERE zt in ( {{select_dept.selectedOptionValue}} )order by zt,bh

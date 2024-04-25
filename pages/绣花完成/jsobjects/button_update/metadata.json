@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "button_update",
+    "pageId": "绣花完成",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "绣花完成_button_update",
+  "deleted": false,
+  "gitSyncId": "63777467ec6e4446d44765a7_6380644bdbc6e8336d960565"
+}

@@ -1,0 +1,1 @@
+SELECT bh,imno,style,yqbz,fabric,colorway,qty,zt,ztmc,Est_Exfactory,ExFactory,Sales,payment_terms,deposit_received,balance_received,OrderPlaced,ProductionRelease,stage1,datediff( ExFACTORY,CURDATE()) AS days FROM ordinfo WHERE zt in ( 1,2,3,4 )order by zt,Est_Exfactory

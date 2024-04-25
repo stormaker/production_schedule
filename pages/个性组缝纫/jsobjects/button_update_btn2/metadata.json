@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "button_update_btn2",
+    "pageId": "个性组缝纫",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "个性组缝纫_button_update_btn2",
+  "deleted": false,
+  "gitSyncId": "63777467ec6e4446d44765a7_638080473e748351b7e68387"
+}
