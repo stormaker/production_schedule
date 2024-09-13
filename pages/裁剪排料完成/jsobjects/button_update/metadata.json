@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "63777467ec6e4446d44765a7_63805c353e748351b7e67f5f",
+  "id": "裁剪排料完成_button_update",
   "unpublishedCollection": {
     "name": "button_update",
     "pageId": "裁剪排料完成",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "裁剪排料完成_button_update",
-  "deleted": false,
-  "gitSyncId": "63777467ec6e4446d44765a7_63805c353e748351b7e67f5f"
+    ]
+  }
 }

@@ -1,43 +1,55 @@
 {
-    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-    "widgetName": "FilePicker1",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "FilePicker",
-    "iconSVG": "/static/media/icon.7c5ad9c357928c6ff5701bf51a56c2e5.svg",
-    "searchTags": ["upload"],
-    "topRow": 1,
-    "bottomRow": 5,
-    "parentRowSpace": 10,
-    "allowedFileTypes": ["image/*"],
-    "type": "FILE_PICKER_WIDGET_V2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 6.84375,
-    "dynamicTriggerPathList": [{"key": "onFilesSelected"}],
-    "leftColumn": 39,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "buttonColor"}
-    ],
-    "isDisabled": false,
-    "key": "41zywmojxq",
-    "onFilesSelected": "",
-    "isRequired": true,
-    "isDeprecated": false,
-    "rightColumn": 56,
-    "isDefaultClickDisabled": true,
-    "widgetId": "4530phzzto",
-    "isVisible": true,
-    "label": "Select Files",
-    "maxFileSize": "5",
-    "dynamicTyping": true,
-    "version": 1,
-    "fileDataType": "Base64",
-    "parentId": "0",
-    "selectedFiles": [],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "files": [],
-    "maxNumFiles": "5"
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "displayName": "FilePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.7c5ad9c357928c6ff5701bf51a56c2e5.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "41zywmojxq",
+  "label": "Select Files",
+  "leftColumn": 39,
+  "maxFileSize": "5",
+  "maxNumFiles": "5",
+  "onFilesSelected": "",
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 56,
+  "searchTags": [
+    "upload"
+  ],
+  "selectedFiles": [],
+  "topRow": 1,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "4530phzzto",
+  "widgetName": "FilePicker1"
 }

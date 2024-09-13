@@ -1,60 +1,70 @@
 {
-    "boxShadow": "none",
-    "widgetName": "input_order_no",
-    "displayName": "Input",
-    "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "onSubmit": "{{order_tracking_orderno_query.run()}}",
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "topRow": 4,
-    "bottomRow": 8,
-    "parentRowSpace": 10,
-    "labelWidth": "15",
-    "autoFocus": false,
-    "type": "INPUT_WIDGET_V2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 6.84375,
-    "dynamicTriggerPathList": [
-        {"key": "onSubmit"},
-        {"key": "onTextChanged"}
-    ],
-    "resetOnSubmit": true,
-    "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"}
-    ],
-    "labelPosition": "Left",
-    "labelStyle": "BOLD",
-    "inputType": "TEXT",
-    "isDisabled": false,
-    "key": "bkdmw8fx0d",
-    "validation": "",
-    "labelTextSize": "1rem",
-    "isRequired": false,
-    "onTextChanged": "{{order_tracking_orderno_query.run()}}",
-    "isDeprecated": false,
-    "rightColumn": 58,
-    "iconName": "box",
-    "dynamicHeight": "FIXED",
-    "widgetId": "kx135p3y1f",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "Order No.",
-    "version": 2,
-    "parentId": "3zzmu6vvnd",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "{{CodeScanner1.value}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultText": "{{CodeScanner1.value}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "box",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "bkdmw8fx0d",
+  "label": "Order No.",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "labelWidth": "15",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "{{order_tracking_orderno_query.run()}}",
+  "onTextChanged": "{{order_tracking_orderno_query.run()}}",
+  "parentColumnSpace": 6.84375,
+  "parentId": "3zzmu6vvnd",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 58,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 4,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "",
+  "version": 2,
+  "widgetId": "kx135p3y1f",
+  "widgetName": "input_order_no"
 }

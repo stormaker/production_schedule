@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "63777467ec6e4446d44765a7_63805d4bd4d99c4ab3bf52c3",
+  "id": "生产下单_button_update",
   "unpublishedCollection": {
     "name": "button_update",
     "pageId": "生产下单",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "生产下单_button_update",
-  "deleted": false,
-  "gitSyncId": "63777467ec6e4446d44765a7_63805d4bd4d99c4ab3bf52c3"
+    ]
+  }
 }

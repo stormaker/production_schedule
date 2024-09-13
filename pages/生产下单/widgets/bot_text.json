@@ -1,47 +1,55 @@
 {
-    "widgetName": "bot_text",
-    "displayName": "Text",
-    "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-    "searchTags": [
-        "typography",
-        "paragraph",
-        "label"
-    ],
-    "topRow": 101,
-    "bottomRow": 125,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 6.84375,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
-    ],
-    "shouldTruncate": false,
-    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{order_tracking_orderno_query.data[0].imno}}  {{text_update.text}}\n\n款式：{{order_tracking_orderno_query.data[0].style}} \n客户：{{order_tracking_orderno_query.data[0].school}} \n面料：{{order_tracking_orderno_query.data[0].fabric}} \n数量：{{order_tracking_orderno_query.data[0].qty}}\n预计出运交期：{{order_tracking_orderno_query.data[0].ExFactory}} \n\n更新时间：\n{{Date()}}",
-    "key": "2z7uqiiy84",
-    "isDeprecated": false,
-    "rightColumn": 63,
-    "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
-    "widgetId": "9jofyteip6",
-    "isVisible": false,
-    "fontStyle": "",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
-    "minDynamicHeight": 4
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 125,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "2z7uqiiy84",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "text": "{{order_tracking_orderno_query.data[0].imno}}  {{text_update.text}}\n\n款式：{{order_tracking_orderno_query.data[0].style}} \n客户：{{order_tracking_orderno_query.data[0].school}} \n面料：{{order_tracking_orderno_query.data[0].fabric}} \n数量：{{order_tracking_orderno_query.data[0].qty}}\n预计出运交期：{{order_tracking_orderno_query.data[0].ExFactory}} \n\n更新时间：\n{{Date()}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 101,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "9jofyteip6",
+  "widgetName": "bot_text"
 }

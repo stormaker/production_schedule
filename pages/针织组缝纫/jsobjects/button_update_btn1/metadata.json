@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "63777467ec6e4446d44765a7_63806a4ddbc6e8336d96061f",
+  "id": "针织组缝纫_button_update_btn1",
   "unpublishedCollection": {
     "name": "button_update_btn1",
     "pageId": "针织组缝纫",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "针织组缝纫_button_update_btn1",
-  "deleted": false,
-  "gitSyncId": "63777467ec6e4446d44765a7_63806a4ddbc6e8336d96061f"
+    ]
+  }
 }

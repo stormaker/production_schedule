@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "63777467ec6e4446d44765a7_654d9bff46f6191c661bbff7",
+  "id": "面料齐备确认_button_update",
   "unpublishedCollection": {
     "name": "button_update",
     "pageId": "面料齐备确认",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "面料齐备确认_button_update",
-  "deleted": false,
-  "gitSyncId": "63777467ec6e4446d44765a7_654d9bff46f6191c661bbff7"
+    ]
+  }
 }

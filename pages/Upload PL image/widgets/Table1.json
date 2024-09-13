@@ -1,152 +1,176 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
-    "isVisibleDownload": true,
-    "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-    "topRow": 15,
-    "isSortable": true,
-    "type": "TABLE_WIDGET_V2",
-    "inlineEditingSaveOption": "ROW_LEVEL",
-    "animateLoading": true,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "tableData"},
-        {"key": "primaryColumns.fileName.computedValue"},
-        {"key": "primaryColumns.url.computedValue"},
-        {"key": "defaultSearchText"}
-    ],
-    "leftColumn": 1,
-    "delimiter": ",",
-    "defaultSelectedRowIndex": "0",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisibleFilters": true,
-    "isVisible": true,
-    "enableClientSideSearch": true,
-    "version": 1,
-    "totalRecordsCount": 0,
-    "isLoading": false,
-    "childStylesheet": {
-        "button": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "iconButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "menuButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "editActions": {
-            "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
-        }
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 51,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": false,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713342731200,
-    "primaryColumnId": "url",
-    "defaultSelectedRowIndices": [0],
-    "widgetName": "Table1",
-    "defaultPageSize": 0,
-    "columnOrder": [
-        "fileName",
-        "url"
-    ],
-    "dynamicPropertyPathList": [
-        {"key": "tableData"},
-        {"key": "tableData"}
-    ],
-    "displayName": "Table",
-    "bottomRow": 51,
-    "columnWidthMap": {
-        "fileName": 110,
-        "task": 245,
-        "step": 62,
-        "status": 75
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "parentColumnSpace": 6.84375,
-    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
-    "borderWidth": "1",
-    "primaryColumns": {
-        "fileName": {
-            "isCellVisible": true,
-            "isDerived": false,
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"fileName\"]))}}",
-            "textSize": "0.875rem",
-            "allowCellWrapping": false,
-            "index": 0,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "fileName",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "isEditable": false,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "alias": "fileName",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "originalId": "fileName",
-            "id": "fileName",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER",
-            "validation": {}
-        },
-        "url": {
-            "isCellVisible": true,
-            "isDerived": false,
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"url\"]))}}",
-            "textSize": "0.875rem",
-            "allowCellWrapping": false,
-            "index": 1,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "url",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "isEditable": false,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "alias": "url",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "originalId": "url",
-            "id": "url",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER",
-            "validation": {}
-        }
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "onRowSelected": "{{copyToClipboard('https://img.s-trend.com/' + Table1.selectedRow.fileName)}}",
-    "defaultSearchText": "{{Input1.inputText}}",
-    "key": "m4li9j2bwr",
-    "canFreezeColumn": false,
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "textSize": "0.875rem",
-    "widgetId": "cdw2uog6ph",
-    "enableServerSideFiltering": false,
-    "tableData": "{{oss_list.data}}",
-    "label": "Data",
-    "searchKey": "",
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "horizontalAlignment": "LEFT",
-    "isVisibleSearch": true,
-    "isVisiblePagination": true,
-    "verticalAlignment": "CENTER"
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "fileName",
+    "url"
+  ],
+  "columnUpdatedAt": 1713342731200,
+  "columnWidthMap": {
+    "fileName": 110,
+    "status": 75,
+    "step": 62,
+    "task": 245
+  },
+  "defaultPageSize": 0,
+  "defaultSearchText": "{{Input1.inputText}}",
+  "defaultSelectedRowIndex": "0",
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.fileName.computedValue"
+    },
+    {
+      "key": "primaryColumns.url.computedValue"
+    },
+    {
+      "key": "defaultSearchText"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    }
+  ],
+  "enableClientSideSearch": true,
+  "enableServerSideFiltering": false,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "m4li9j2bwr",
+  "label": "Data",
+  "leftColumn": 1,
+  "onRowSelected": "{{copyToClipboard('https://img.s-trend.com/' + Table1.selectedRow.fileName)}}",
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "primaryColumnId": "url",
+  "primaryColumns": {
+    "fileName": {
+      "alias": "fileName",
+      "allowCellWrapping": false,
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"fileName\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "fileName",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "fileName",
+      "originalId": "fileName",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "url": {
+      "alias": "url",
+      "allowCellWrapping": false,
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"url\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "url",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "url",
+      "originalId": "url",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{oss_list.data}}",
+  "textSize": "0.875rem",
+  "topRow": 15,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 1,
+  "verticalAlignment": "CENTER",
+  "widgetId": "cdw2uog6ph",
+  "widgetName": "Table1"
 }
