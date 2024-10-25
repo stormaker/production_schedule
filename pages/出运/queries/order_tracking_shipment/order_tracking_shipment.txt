@@ -1,0 +1,1 @@
+SELECT bh,imno,style,school,yqbz,fabric,colorway,qty,zt,ztmc,Est_Exfactory,ExFactory,BySeaAir,airwaybill FROM ordinfo WHERE imno = "{{input_order_no.inputText}}" order by zt,bh

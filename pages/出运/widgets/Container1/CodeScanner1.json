@@ -1,0 +1,48 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "#e0e7ff",
+  "displayName": "Code Scanner",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCodeDetected"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.c4a2da6d32c0f212d031fca147e4f7cb.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "jtcxyzqq8u",
+  "label": "Code Scanner",
+  "leftColumn": 1,
+  "onCodeDetected": "{{order_tracking_orderno_query.run()}}",
+  "parentColumnSpace": 6.84375,
+  "parentId": "3zzmu6vvnd",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 20,
+  "scannerLayout": "CLICK_TO_SCAN",
+  "searchTags": [
+    "barcode scanner",
+    "qr scanner",
+    "code detector",
+    "barcode reader"
+  ],
+  "topRow": 0,
+  "type": "CODE_SCANNER_WIDGET",
+  "version": 1,
+  "widgetId": "s19oiqq22s",
+  "widgetName": "CodeScanner1"
+}

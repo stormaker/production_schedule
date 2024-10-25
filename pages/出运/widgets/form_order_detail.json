@@ -1,0 +1,695 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fff",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 114,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.bh.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.bh.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.bh.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.imno.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.imno.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.imno.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.style.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.style.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.style.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.yqbz.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.yqbz.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.yqbz.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.fabric.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.fabric.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.fabric.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.colorway.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.colorway.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.colorway.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.qty.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.qty.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.qty.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.zt.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.zt.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.zt.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.ztmc.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Est_Exfactory.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Est_Exfactory.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Est_Exfactory.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.ExFactory.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.ExFactory.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.ztmc.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.ExFactory.labelTextColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.school.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.school.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.school.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.ztmc.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.imno.labelTextColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.BySeaAir.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.BySeaAir.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.BySeaAir.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.airwaybill.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.airwaybill.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.airwaybill.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.BySeaAir.labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Est_Exfactory.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.ExFactory.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.OrderPlaced.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.stage1.defaultValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.deposit_received.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.balance_received.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.ProductionRelease.defaultValue"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "aczlnrku7d",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "",
+  "parentColumnSpace": 22.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "rightColumn": 64,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "BySeaAir": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "BySeaAir",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.BySeaAir))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "BySeaAir",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "By Sea Air",
+          "labelStyle": "BOLD",
+          "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "BySeaAir",
+          "position": 12,
+          "sourceData": "DHL"
+        },
+        "Est_Exfactory": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "Est_Exfactory",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.Est_Exfactory, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "Est_Exfactory",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Est Exfactory",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "Est_Exfactory",
+          "position": 8,
+          "shortcuts": false,
+          "sourceData": "2022-09-01",
+          "timePrecision": "minute"
+        },
+        "ExFactory": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "ExFactory",
+          "borderRadius": "0.375rem",
+          "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.ExFactory, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "ExFactory",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Planned Ex-factory 计划离厂日期",
+          "labelStyle": "BOLD",
+          "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
+          "labelTextSize": "1.25rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "ExFactory",
+          "position": 9,
+          "shortcuts": false,
+          "sourceData": "2022-12-12",
+          "timePrecision": "None"
+        },
+        "airwaybill": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "airwaybill",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.airwaybill))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "airwaybill",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Airwaybill",
+          "labelStyle": "BOLD",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "airwaybill",
+          "position": 13
+        },
+        "bh": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "bh",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.bh))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "bh",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Bh",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "bh",
+          "position": 10,
+          "sourceData": 42985
+        },
+        "colorway": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "colorway",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.airwaybill))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "colorway",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Tracking No. 运单号",
+          "labelStyle": "",
+          "labelTextColor": "",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "colorway",
+          "position": 5,
+          "sourceData": "SUB"
+        },
+        "fabric": {
+          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+          "accessor": "fabric",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.byseaair))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "fabric",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Shipment 出运方式",
+          "labelStyle": "BOLD",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "fabric",
+          "position": 4,
+          "sourceData": "Reprieve Recycled Fabric 循环再生面料"
+        },
+        "imno": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "imno",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.imno))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "iconName": "box",
+          "identifier": "imno",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Order 订单号",
+          "labelStyle": "BOLD",
+          "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "imno",
+          "position": 1,
+          "sourceData": "AJM1066"
+        },
+        "qty": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "qty",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.qty))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "iconName": "numerical",
+          "identifier": "qty",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Qty 数量",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "qty",
+          "position": 6,
+          "sourceData": 345
+        },
+        "school": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "school",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.school))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "school",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Client 客户",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "school",
+          "position": 2,
+          "sourceData": "SCHOOL SPORT of Victoria ( STCN EXCHANGE)"
+        },
+        "style": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "style",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.style))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "style",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Style 款式",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "style",
+          "position": 3,
+          "sourceData": "Team Vic Women's Warm Up Top"
+        },
+        "yqbz": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "yqbz",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.yqbz))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "yqbz",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Yqbz",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "yqbz",
+          "position": 11,
+          "sourceData": "12836"
+        },
+        "zt": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "zt",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.zt))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "zt",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Zt",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "zt",
+          "position": 7,
+          "sourceData": 17
+        },
+        "ztmc": {
+          "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "accessor": "ztmc",
+          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.ztmc))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "iconName": "form",
+          "identifier": "ztmc",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Order Status 订单状态",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "ztmc",
+          "position": 0,
+          "sourceData": "等待出运 Ready for Shipment"
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(form_order_detail.sourceData, form_order_detail.formData, form_order_detail.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "Est_Exfactory": "2022-09-01",
+        "ExFactory": "2022-12-12",
+        "bh": 42985,
+        "colorway": "SUB",
+        "fabric": "Reprieve Recycled Fabric 循环再生面料",
+        "imno": "AJM1066",
+        "qty": 345,
+        "school": "SCHOOL SPORT of Victoria ( STCN EXCHANGE)",
+        "style": "Team Vic Women's Warm Up Top",
+        "yqbz": "12836",
+        "zt": 17,
+        "ztmc": "等待出运 Ready for Shipment"
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": false,
+  "sourceData": "{{order_tracking_shipment.data[0]}}",
+  "submitButtonLabel": "Submit",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "订单信息",
+  "topRow": 35,
+  "type": "JSON_FORM_WIDGET",
+  "version": 1,
+  "widgetId": "02zzz46m96",
+  "widgetName": "form_order_detail"
+}

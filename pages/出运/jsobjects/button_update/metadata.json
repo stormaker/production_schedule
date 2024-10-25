@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66e3d242022e4844657e3ea2_ea593106-ae3b-4409-b5d8-5d5c12460f54",
+  "id": "出运_button_update",
+  "unpublishedCollection": {
+    "name": "button_update",
+    "pageId": "出运",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

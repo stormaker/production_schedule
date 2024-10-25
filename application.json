@@ -66,6 +66,10 @@
     {
       "id": "后道质检完成",
       "isDefault": false
+    },
+    {
+      "id": "出运",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
